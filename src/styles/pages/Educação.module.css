@@ -1,0 +1,66 @@
+.Container {
+  background-color: #d97824;
+  padding: 17px 111px;;
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  justify-content: center;
+}
+
+@media screen and (max-device-width: 420px)
+{
+  .Container {
+  justify-content: center;
+  padding: 30px;
+  }
+
+  .ContainerH2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.ContainerH2 {
+  display: flex;
+  justify-content: center;
+}
+.Container h2 {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: 1.31em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  
+}
+
+.Container p {
+  font-size: 0.75em;
+  color: #ffffff;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+}
+
+.containerCursos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cursosTexto {
+  margin: 15px 20px 0px 5px;
+}
+
+@media screen and (max-device-width: 420px)
+{
+  .containerCursos {
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+}
+

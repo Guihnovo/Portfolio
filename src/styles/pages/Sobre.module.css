@@ -1,0 +1,90 @@
+.grid {
+  background: #063447;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 70px 100px;
+  justify-content: center;
+}
+
+.grid h1 {
+  font-family: Montserrat;
+  font-size: 42px;
+  margin-bottom: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+
+.sobreTexto{
+
+  margin-bottom: 25px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.sobre p {
+  font-size: 0.75em;
+  color: white;
+  
+}
+
+.tecnologias {
+  font-family: Montserrat;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #ffffff;
+}
+
+.tecnologias span {
+  margin-left: 10px;
+  border-left: 5px solid white;
+  margin: 26px 16px 32px 5px;
+  padding-left: 10px;
+}
+
+.tecnologias button {
+    background: #bf213e;
+    border: none;
+    width: 8.75rem;
+    height: 1.85rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin: 1.39rem 1.39rem 0px 0px;
+    cursor: pointer;
+    display: block;
+}
+
+.tecnologias button:hover{
+  transform: skew(-1)
+}
+
+.IconePerfil {
+  display: grid;
+  justify-content: center;
+}
+
+@media screen and (max-width: 850px)
+{
+ .IconePerfil img {
+  display: none;
+ }
+ .IconePerfil {
+  background: #063447;
+ }
+}
+
+

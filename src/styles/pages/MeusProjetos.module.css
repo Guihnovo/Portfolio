@@ -1,0 +1,204 @@
+.Container {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-rows: 60px 1fr 1fr;
+}
+
+.Container > div {
+  justify-content: center;
+  display: grid;
+  color: #45525b;
+  align-items: center;
+} 
+
+.containerCursos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 750px)
+{
+ .containerCursos div img {
+ display: none;
+ }
+
+}
+
+.containerCursos h1 {
+  color: #8d1c31;
+  font-size: 2.62em;
+  
+}
+.containerCursos span {
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #8d1c31;
+  margin: 52px 268px 23px 0;
+}
+
+.containerCursos p {
+  font-family: Montserrat;
+  font-size: 0.75em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #8d1c31;
+  text-align: justify;
+  margin: 23px 10px 10px 0px;
+}
+
+@media screen and (max-device-width: 420px){
+  .containerCursos p {
+  font-size: 0.85em;
+  }
+}
+.containerCursos button {
+  background: #bf213e;
+  border: none;
+  width: 8.75rem;
+  height: 1.85rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: 1.39rem 1.39rem 0px 0px;
+  cursor: pointer;
+}
+
+.containerCursos button:hover{
+transform: skew(-10deg);
+}
+.containerCursos2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 750px)
+{
+ .containerCursos2 div img {
+ display: none;
+ }
+
+}
+.containerCursos2 h1 {
+  color: #33a6a6;
+  font-size: 2.62em;
+}
+
+.containerCursos2 span {
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #33a6a6;
+  margin: 52px 268px 23px 0;
+}
+.containerCursos2 p {
+  font-family: Montserrat;
+  font-size: 0.75em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #33a6a6;
+  text-align: justify;
+  margin: 23px 10px 10px 0px;
+}
+
+@media screen and (max-device-width: 420px){
+  .containerCursos2 p {
+  font-size: 0.85em;
+  }
+}
+.containerCursos2 button {
+  background: #33a6a6;
+  border: none;
+  width: 8.75rem;
+  height: 1.85rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: 1.39rem 1.39rem 0px 0px;
+  cursor: pointer;
+}
+
+.containerCursos2 button:hover{
+transform: skew(-10deg);
+}
+
+.containerCursos3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 750px)
+{
+ .containerCursos3 div img {
+ display: none;
+ }
+
+}
+
+.containerCursos3 h1 {
+  color: #d97824;
+  font-size: 2.62em;
+}
+
+.containerCursos3 span {
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #d97824;
+  margin: 52px 268px 23px 0;
+}
+.containerCursos3 p {
+  font-family: Montserrat;
+  font-size: 0.75em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #d97824;
+  text-align: justify;
+  margin: 23px 10px 10px 0px;
+}
+
+@media screen and (max-device-width: 420px){
+  .containerCursos3 p {
+  font-size: 0.85em;
+  }
+}
+
+.containerCursos3 button {
+    background: #d97824;
+    border: none;
+    width: 8.75rem;
+    height: 1.85rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin: 1.39rem 1.39rem 0px 0px;
+    cursor: pointer;
+}
+
+.Container button:hover{
+  transform: skew(-10deg);
+}
