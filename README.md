@@ -8,7 +8,7 @@
 - Module css
 - Componentes
 
-## Como rodar a aplicação :computer:
+## Como rodar a aplicação :arrow_forward:
 No terminal, clone o projeto:
 ```
 git clone https://github.com/Guihnovo/Portfolio.git
