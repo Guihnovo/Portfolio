@@ -2,6 +2,12 @@
 
 #### Status do Projeto: Finalizado  :heavy_check_mark:
 
+## Linguagens e Libs utilizadas :computer:
+
+- React
+- Module css
+- Componentes
+
 ## Como rodar a aplicação :computer:
 No terminal, clone o projeto:
 ```
