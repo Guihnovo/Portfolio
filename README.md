@@ -1,6 +1,6 @@
-# Portfolio
+# Portfolio :star:
 
-#### Status do Projeto: Finalizado :warning:
+#### Status do Projeto: Finalizado  :heavy_check_mark:
 
 ## Como rodar a aplicação :computer:
 No terminal, clone o projeto:
