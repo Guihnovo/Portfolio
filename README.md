@@ -29,4 +29,4 @@ Abrir o navegador no localhost:3000
 
 <h2>Link do projeto </h2>
 
-https://portfolio-nu-roan-46.vercel.app/
+https://portfolio-guihnovo.vercel.app/
