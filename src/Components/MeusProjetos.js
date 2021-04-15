@@ -44,7 +44,6 @@ export default function MeusProjetos() {
             <span>Front-end com React.js</span>
             <p>Projeto realizado em conjunto, na labenu. Feito para versão mobile, os restaurantes são mostrados na tela, conforme número selecionado na tela de seleção. Dessa forma é chamado na api, para mostrar na tela. Ele também tem como característica adicionar ao carrinho, a qual aparece um modal com a quantidade, que será enviado para o carrinho. Tecnicamente, foi utilizado React.Js, com hooks, styled-components, material-ui, router e etc. O Projeto está em desenvolvimento. </p>
             <a href="https://github.com/Guihnovo/Rappi4A" target="_blank"><button>Ver no GitHub</button></a>
-
           </div>
         </div>
     </section>

@@ -10,9 +10,9 @@ export default function Contato() {
     <div>
       <section className={styles.Container} id="contato">
         <h1>Contrata-me!</h1>
-        <p>Procuro oportunidade de trabalho onde eu possa aprender, me desenvolver e evoluir na minha carreira profissional.</p>
+        <p>Procuro oportunidade de trabalho onde eu possa aprender, me desenvolver, agregar e evoluir na minha carreira profissional.</p>
         <p>E-mail para contato: guilhermenovo22@gmail.com</p>
-        <p>Celular: (43) 9 8486-4198</p>
+        <p>Celular: (44) 9 8802-5272 / (43) 9 8486-4198</p>
         <div className={styles.Imagens}>
           <a href="https://www.linkedin.com/in/guilhermenovo" target="_blank"><img src={LinkedinImage} alt="Linkedin"/></a>
           <a href="https://api.whatsapp.com/send?phone=5543984864198&text=Olá!" target="_blank" > <img src={Whatsapp} alt="Whatsapp"/></a>
